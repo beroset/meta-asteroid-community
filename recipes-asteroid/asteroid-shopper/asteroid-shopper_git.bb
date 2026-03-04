@@ -7,7 +7,6 @@ SRC_URI = "git://github.com/moWerk/asteroid-shopper.git;protocol=https;branch=ma
 SRCREV = "aaa45f72ca7cf21d15cbbdbdae2121047923bf2e"
 PR = "r1"
 PV = "+git${SRCPV}"
-S = "${WORKDIR}/git"
 
 inherit cmake_qt5 pkgconfig asteroid-users
 
